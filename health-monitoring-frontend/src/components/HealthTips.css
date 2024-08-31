@@ -1,0 +1,50 @@
+.health-tips {
+    position: relative;
+    background: url('../assets/Nutrition-Blog-Default.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .section-title3{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    color :white;
+  }
+  
+  .section-description3 {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  

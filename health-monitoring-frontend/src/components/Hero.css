@@ -1,0 +1,80 @@
+.hero {
+    background: url('../assets/.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .hero-title {
+    margin-right: -600px;
+    font-size: 3em;
+    margin-bottom: -400px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+  }
+  
+  .hero-description {
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+  }
+  
+  .hero-buttons {
+    margin-right: -300px;
+    margin-top: 450px;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color:#ff6347;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .btn-secondary:hover {
+    background-color: white;
+    color: #4caf50;
+  }
+  

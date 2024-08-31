@@ -1,0 +1,20 @@
+.health-data-dashboard {
+    padding: 20px;
+  }
+  
+  .health-data-filter {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .health-data-filter label {
+    font-size: 1.2em;
+  }
+  
+  .health-data-filter input {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1em;
+    width: 100px; /* Adjust width as needed */
+  }
+  

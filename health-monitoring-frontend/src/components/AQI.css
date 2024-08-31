@@ -1,0 +1,25 @@
+.aqi-container {
+    background-color: #e7f9f1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .aqi-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .aqi-container p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: white;
+  }
+  
+  .aqi-container .error {
+    color: red;
+  }
+  

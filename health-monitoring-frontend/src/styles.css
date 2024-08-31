@@ -1,0 +1,121 @@
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1em;
+  color: #666;
+}
+
+.hero-section {
+  background: url('path-to-your-background-image.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.health-tips-list {
+  list-style: none;
+  padding: 0;
+}
+
+.health-tips-list li {
+  margin-bottom: 10px;
+}
+
+.health-advice-section {
+  margin-top: 40px;
+}
+
+.health-advice-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.health-advice-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.health-advice-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.health-advice-container button {
+  padding: 10px 20px;
+}
+
+.advice-result {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.parameters-table-container {
+  margin-top: 20px;
+}
+
+.parameters-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.parameters-table th,
+.parameters-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.parameters-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
